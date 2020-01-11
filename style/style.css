@@ -100,7 +100,7 @@ body
     color:#fff
 }
 
-.header .table table tr td[name="link"]
+.header .table table tr td .link
 {
     background:#ff0000
 }
