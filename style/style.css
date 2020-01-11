@@ -1,0 +1,742 @@
+body
+{
+    margin:0;
+    padding:0;
+}
+.container
+{
+    width:1100px;
+    margin:0 auto
+}
+
+/*start navbar*/
+.navbar
+{
+    background:#f1f1f1;
+    overflow:hidden ;
+     
+}
+.navbar h2
+{
+    float:left;
+    letter-spacing:5px;
+    border-bottom:3px solid #ff0000 ;
+    color:#444;
+    font-size:18px 
+}
+.navbar ul
+{
+    list-style:none;
+    float:right;
+    
+}
+.navbar ul li 
+{
+    float:left;
+    padding:15px;
+    text-transform:uppercase;
+    
+    
+}
+.navbar ul li a
+{
+    text-decoration:none;
+    color:#666;
+    font-weight:bold;
+    letter-spacing:1px;
+    font-size:13px
+}
+.navbar ul li a:hover
+{
+    color:#ff0000
+}
+/*end navbar*/
+
+
+/*start header*/
+.header
+{
+    background:#f1f1f1;
+    overflow:hidden 
+}
+.header .table 
+{
+    float:left;
+    width:50%;
+    
+    
+}
+.header .table table
+{
+    padding:150px 0 0 170px
+    
+}
+.header .picture
+{
+    float:left;
+    width:50%
+}
+.header .picture img
+{
+    margin-bottom:-5px 
+}
+.header .table table tr td
+{
+    border:2px solid #e4e4e4;
+    padding:12px  
+}
+.header .table table tr >td
+{
+    background:#fff;
+    width:100px;
+    text-transform: capitalize;
+    color:#888
+}
+.header .table table tr td:last-of-type
+{
+    background:#4c9cef;
+    width:180px;
+    text-transform: capitalize;
+    color:#fff
+}
+
+.header .table table tr td[name="link"]
+{
+    background:#ff0000
+}
+.header .table table tr td a
+{
+    text-decoration:none;
+    color:#fff;
+    
+}
+/*end header*/
+
+/*start experience*/
+.experience .upper
+{
+    text-align:center
+}
+.experience .upper h1
+{
+    text-transform:capitalize;
+    color:#333
+}
+.experience .lower
+{
+    margin-top:80px;
+    overflow: hidden
+}
+.experience .lower .skills
+{
+    width:50%;
+    float:left;
+    min-height:230px 
+}
+.experience .lower .pic
+{
+    width:20%;
+    float:left;
+    margin-top:5px
+}
+.experience .lower .skills .pic img
+{
+    width:100%;
+    
+}
+.experience .lower .skills .paragraph
+{
+    width:60%;
+    float:left;
+    padding-left:20px;
+    margin-left:20px
+}
+.experience .lower .skills .paragraph h4
+{
+    color:#555;
+    margin-bottom:0;
+    letter-spacing:1px ;
+    text-align: center;
+}
+.experience .lower .skills .paragraph h5
+{
+    color:#555;
+    margin-top:15px;
+    letter-spacing:1px;
+    margin-bottom:10px;
+    text-align: center;
+    
+}
+.experience .lower .skills .paragraph p
+{
+    color:#696969;
+    line-height:1.7;
+    margin-right: 12px;
+    text-align: center;
+}
+.experience .lower .skills .paragraph
+{
+    border-radius:10px 
+}
+/*end experience*/
+
+
+/*start about-me*/
+.about-me
+{
+    background:#f9f9f9;
+    overflow:hidden;
+    height:600px
+     
+}
+.about-me .upper
+{
+    text-align:center;
+}
+.about-me .upper h1
+{
+    text-transform:capitalize;
+    color:#333
+}
+.about-me .lower
+{
+    margin-top:80px;
+    
+}
+
+.about-me .lower .text
+{
+    width:50%;
+    float:left;
+    
+}
+.about-me .lower .text p
+{
+    border:7px solid #4C9DEF;
+    padding:40px ;
+    border-top-color:#efec4c;
+    border-bottom-color:#4c9cef;
+    border-left-color:#efec4c;
+    border-right-color:#4c9cef ;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    color:#333;
+    line-height:1.7;
+    
+}
+.about-me .lower .text p span
+{
+    background:#ff0000;
+    color:#fff;
+    font-size:50px;
+    border:1px solid #ff0000;
+    padding:0 20px;
+    border-radius:100px 
+}
+.about-me .lower .right
+{
+    width:50%;
+    float:left
+}
+
+.about-me .lower .right .contact
+{
+    border:7px solid #4c9def;
+    margin-left:30px;
+    margin-top:15px;
+    height:150px ;
+    border-top-color:#4c9cef;
+    border-bottom-color:#4c9cef;
+    border-left-color:#efec4c;
+    border-right-color:#efec4c ;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    background-image:url('stars.jpg')  
+
+}
+.about-me .lower .right .contact button
+{
+    width:200px;
+    margin:55px 200px 75px 150px ;
+    padding:15px 35px;
+    font-size:16px;
+    font-weight:bold; 
+    text-transform:uppercase;
+    background:none;
+    border:3px solid #000;
+    border-radius:5px;
+    letter-spacing:1px 
+}
+.about-me .lower .right .contact button:hover
+{
+    background:#ff0000;
+    color:#fff;
+    cursor:pointer 
+}
+.about-me .lower .right .logo
+{
+    margin-left:30px;
+    margin-top:60px;
+    border:7px solid #efec4c;
+    height:160px ;
+    border-top-color:#efec4c;
+    border-bottom-color:#efec4c;
+    border-left-color:#4c9cef;
+    border-right-color:#4c9cef ;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    
+    
+    
+}
+.about-me .lower .right .logo .icons
+{
+   
+    margin-left:110px;
+    margin-top:50px
+}
+.about-me .lower .right .logo .icons a img
+{
+    width:60px;
+    margin-left:5px 
+}
+/*end about-me*/
+
+
+
+/*start my portofolio*/
+.my-portofolio
+{
+    overflow:hidden;
+    height:auto
+}
+.my-portofolio .upper
+{
+    text-align:center;
+}
+.my-portofolio .upper h1
+{
+    text-transform:capitalize;
+    color:#333;
+    letter-spacing:1px;
+    font-size:30px ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
+}
+.my-portofolio .lower
+{
+    margin-top:80px;
+    overflow:hidden 
+}
+.my-portofolio .lower .left
+{
+    width:15%;
+    float:left;
+    background:#4c9cef;
+    text-align:center ;
+    height:200px ;
+    padding-top:20px
+    
+}
+.my-portofolio .lower .left p
+{
+    color:#fff;
+    text-transform: capitalize
+}
+.my-portofolio .lower .left p span
+{
+    background:#ff0000;
+    border:1px solid #ff0000;
+    padding:5px 15px;
+    border-radius:20px 
+}
+.my-portofolio .lower .left p:hover
+{
+    color:#000;
+    cursor:pointer
+}
+.my-portofolio .lower .right
+{
+    width:83%;
+    float:left;
+    margin-left:2% 
+}
+.my-portofolio .lower .right .img
+{
+    width:33.333%;
+    float:left;
+   
+}
+.my-portofolio .lower .right .img img
+{
+    width:100%;
+    margin-bottom:-5px;
+    cursor:pointer
+}
+.my-portofolio .button
+{
+    padding-top:60px;
+    width:200px;
+    margin:0 auto
+}
+.my-portofolio .button button
+{
+    background:none;
+    color:#000;
+    padding:20px 50px;
+    border:3px solid #000;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius:10px;
+    font-family:'times new roman';
+    letter-spacing:1px 
+    
+}
+.my-portofolio .button button:hover
+{
+    color:#fff;
+    background:#ff0000;
+    cursor:pointer 
+}
+/*end my portofolio*/
+
+/*start testimonials*/
+.testimonials
+{
+    background:#f9f9f9;
+    overflow:hidden;
+    margin-top:60px;
+    height:730px
+     
+}
+.testimonials .upper
+{
+    text-align:center;
+}
+.testimonials .upper h1
+{
+    text-transform:capitalize;
+    color:#333
+}
+.testimonials .lower
+{
+    width:500px;
+    margin:0 auto;
+    text-align:center;
+    margin-top:60px;
+    border:1px solid #fff;
+    background:#fff;
+    padding:30px 40px;
+    border-radius:10px 
+}
+.testimonials .lower p
+{
+    width:350px;
+    margin:auto;
+    color:#666;
+    letter-spacing:1px 
+}
+.testimonials .lower h4
+{
+    color:#4c9cef;
+    letter-spacing:2px 
+}
+.testimonials .lower img
+{
+    width: 300px;
+    margin-bottom:-5px;
+    cursor:pointer
+}
+/*end testimonials*/
+
+/*start part*/
+
+.part
+{
+    background-image:url('../assets/images/workBackground.jpeg');
+    background-size:cover; 
+    height:400px;
+    overflow:hidden 
+}
+.part .one,.two,.three,.four
+{
+    width:20%;
+    float:left;
+    margin-left:50px ;
+    margin-top:90px;
+    text-align:center ;
+    height:180px
+    
+}
+.part .one
+{
+    background:#f306a0;
+    padding-top:50px;
+    border-radius: 15px
+}
+.part .one img
+{
+    width:30px;
+   
+}
+.part .two
+{
+    background:#08A6F3;
+     padding-top:50px;
+     border-radius: 15px
+}
+.part .two img
+{
+    width:30px
+}
+.part .three
+{
+    background:#0FD28A;
+     padding-top:50px;
+     border-radius: 15px
+}
+.part .three img
+{
+    width:30px
+}
+.part .four
+{
+    background:#F97400;
+     padding-top:50px;
+     border-radius: 15px
+}
+.part .four img
+{
+    width:30px
+}
+.part .one,.two,.three,.four h1
+{
+    color:#fff;
+     
+}
+.part .one,.two,.three,.four p
+{
+    color:#fff;
+    font-weight:bold;
+    font-size:15px
+}
+/*end part*/
+
+/*START MY SERVICES*/
+.my-services
+{
+    background:#f9f9f9;
+    overflow:hidden;
+    margin-top:0px;
+    height:780px;
+     
+}
+.my-services .upper
+{
+    text-align:center;
+}
+.my-services .upper h1
+{
+    text-transform:capitalize;
+    color:#333
+}
+.my-services .lower .services
+{
+    width:27%;
+    float:left;
+    text-align: center;
+    margin-top:20px;
+    margin-left:55px; 
+    padding:85px 0;
+    background:rgb(169, 231, 228);
+    border-radius:166px 
+}
+.my-services .lower .services img
+{
+    width:50px
+}
+.my-services .lower .services p
+{
+    font-size:30px;
+    color:#333;
+    margin-top:20px
+}
+/*end my services*/
+
+/*start more*/
+.more
+{
+    background:#20ecff85;
+    overflow:hidden;
+    height:auto 
+}
+.more .p
+{
+    width:60%;
+    float:left
+}
+.more .p p
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* margin:100px 0 0 50px; */
+    color:rgb(0, 0, 0);
+    text-transform:capitalize;
+    font-size:25px;
+    letter-spacing:1px ;
+}
+.more .button
+{
+    float:left;
+    width:30%
+}
+.more .button button
+{
+    margin:5px 0 0 40px;
+    color:rgb(0, 0, 0);
+    background:none;
+    width:240px;
+    padding:20px 60px;
+    font-weight:bold;
+    font-size:16px;
+    border:3px solid rgb(0, 0, 0);
+    letter-spacing:1px;
+    border-radius:5px;
+    text-transform:capitalize 
+    
+}
+.more .button button:hover
+{
+    color:rgb(0, 0, 0);
+    background:#efec4c;
+    cursor:pointer
+}
+/*end more*/
+
+/*start contact me*/
+.contact-me
+{
+    background:#fff;
+    overflow:hidden;
+    margin-top:0px;
+     
+}
+.contact-me .upper
+{
+    text-align:center;
+}
+.contact-me .upper h1
+{
+    text-transform:capitalize;
+    color:#333
+}
+.contact-me .form
+{
+    width:600px;
+    margin:auto;
+    border:7px solid #4c9def;
+    border-top-color:#4c9cef;
+    border-bottom-color:#4c9cef;
+    border-left-color:#efec4c;
+    border-right-color:#efec4c ;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    margin-top:50px;
+    padding:30px;
+    background:#fbfbfb;
+    padding-top:50px
+    
+}
+.contact-me .form input
+{
+    width:35%;
+    margin-left:40px;
+    padding:15px;
+    margin-bottom:20px;
+    border:1px solid #fff;
+    border-radius:5px ;
+    font-size:15px;
+    text-transform:capitalize;
+}
+.contact-me .form select
+{
+    width:87%;
+    margin-left:40px;
+    padding:15px;
+    margin-bottom:20px;
+    border:1px solid #fff;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px; 
+    font-size:15px;
+    text-transform:capitalize;
+    color:#222
+    
+}
+.contact-me .form select option
+{
+    color:#222
+}
+.contact-me .form textarea
+{
+    width:81%;
+    margin-left:40px;
+    padding:15px;
+    margin-bottom:20px;
+    border:1px solid #fff;
+    border-radius:5px;  
+    font-size:15px;
+    text-transform:capitalize;
+    color:#555;
+    height:120px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
+}
+.contact-me .form button
+{
+    width:170px;
+    padding:15px 30px;
+    margin:20px 0 30px 215px;
+    background:none;
+    border:2px solid #000;
+    border-radius:5px;
+    color:#000;
+    text-transform:uppercase;
+    font-size:15px;
+    font-weight:bold;
+    letter-spacing:1px 
+}
+.contact-me .form button:hover
+{
+    color:#fff;
+    background:#ff0000;
+    cursor:pointer
+}
+/*end contact me*/
+
+/*start footer*/
+.footer
+{
+    margin-top:100px;
+    background:rgba(0, 0, 0, 0.363);
+    padding:40px;
+    height:auto
+}
+.footer .icons
+{
+    text-align:center;
+    margin:35px 0 25px 0
+}
+.footer .icons a img
+{
+    width:50px;
+    margin:5px
+}
+.footer p
+{
+    text-align:center;
+    text-transform:capitalize 
+}
+.footer p span
+{
+    color:#4c9cef
+}
+.footer p span:hover
+{
+    color:#ff0000;
+    cursor:pointer
+}
+/*end footer*/
